@@ -1,0 +1,20 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "git": "git add --all && git commit -m'mark' && git push origin master",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsnlfk/ui.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dsnlfk/ui/issues"
+  },
+  "homepage": "https://github.com/dsnlfk/ui#readme"
+}

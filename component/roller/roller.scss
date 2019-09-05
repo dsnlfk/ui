@@ -1,0 +1,43 @@
+@import "@/common/css/mixin.scss";
+
+.roller-title {
+  font-weight: bold;
+  line-height: vw(40);
+  padding-left: vw(34);
+  background: no-repeat vw(12) center;
+  background-size: vw(16) vw(16);
+  font-size: vw(14);
+}
+.slide-box {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  margin-left: vw(12);
+  padding-bottom: vw(12);
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.slide-item {
+  display: block;
+  width: vw(96);
+  padding-right: vw(10);
+  img {
+    width: vw(88);
+    height: vw(88);
+    display: block;
+    margin: 0 auto;
+    border-radius: vw(8);
+  }
+  span {
+    font-size: vw(12);
+    margin-top: vw(12);
+    font-weight: bold;
+    line-height: vw(14);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    color: #343434;
+  }
+}

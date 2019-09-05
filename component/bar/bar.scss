@@ -1,0 +1,26 @@
+@import "@/common/css/mixin.scss";
+
+.bar {
+  display: block;
+  position: relative;
+  height: vw(60);
+  font-weight: bold;
+  line-height: vw(60);
+  padding-left: vw(34);
+  background: no-repeat vw(12) center;
+  background-size: vw(16) vw(16);
+  font-size: vw(14);
+  border-bottom: vw(1) solid #F2F2F2;
+  color: #343434;
+  span{
+    border: vw(2) solid #8a8a8a;
+    border-left: none;
+    border-bottom: none;
+    position: absolute;
+    top: vw(26);
+    right: vw(14);
+    width: vw(8);
+    height: vw(8);
+    transform: rotate(45deg);
+  }
+}

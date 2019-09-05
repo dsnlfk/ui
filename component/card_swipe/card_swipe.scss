@@ -1,0 +1,24 @@
+@import '@/common/css/mixin.scss';
+
+.card-swipe{
+  width: vw(320);
+  height: vw(120);
+  margin: 0 auto;
+  .card-slide{
+    display: -webkit-box;
+  }
+  .item{
+    display: block;
+    box-sizing: border-box;
+    width: vw(320);
+    height: vw(120);
+    background: no-repeat center;
+    background-size: cover;
+    transform: scale(0.92);
+    transition: transform 0.1s;
+    border-radius: vw(4)
+  }
+  .item.current{
+    transform: scale(1)
+  }
+}
